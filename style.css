@@ -1,6 +1,6 @@
 *{margin: 0%}
-h1{ text-align: center;background-image:url(header.jpg); height: 400px; background-size: cover;
-color: #b78d52; font-family:serif}
+h1{ text-align: center;background-image:url(header.jpg); height: 350px; background-size: cover;
+color: #b78d52; font-family:serif; background-color: transparent; }
 nav{background-color:#370617; height: auto; }
 a{color: #b78d52; }
 li{list-style-type: none; display: inline-block; margin: 1%; padding: 1%;}
@@ -8,11 +8,134 @@ li:hover{background-color: black; border-radius: 8px;}
 header{position: fixed; top: 0; width: 100%;}
 
  #home{height: 400px; background-color: black; color: #b78d52;padding-top: 500px; }
-p{font-family: serif; }
-#news{height: 600px; background-color: cadetblue; scroll-margin-top: 500px; }
-#top{background-color: #370617; height: 50%;}
-#bottom{background-color: #370617; height: 50%;}
+p{font-family: serif;}
+p#intro{font-size:20px;}
+#news{height: 650px; background-color: white ; scroll-margin-top: 500px; }
+#top{background-color: #370617; height: 50%; padding-left: 7%; }
+#bottom{background-color: #370617; height: 50%; padding-left: 7%; }
 span.t{ border: 1px solid#b78d52; width: 20%; text-align: center; border-radius:10px;
-     float: left; margin: 2%; height: 80%; color: #b78d52;}
+     float: left; margin: 1%;  height: 80%; color: #b78d52;}
+ span.t:hover{width:22%; height: 82%; background-color: black; }    
      
-#contact{height: 400px; background-color: black; }
+#contact{height: auto; background-color: black; font-family: "Roboto", Helvetica, Arial, sans-serif;
+     font-weight: 100; 
+     font-size: 12px; scroll-margin-top: 450px;
+     line-height: 30px;
+     color: #370617; }
+
+     #contacts input[type="text"],
+     #contacts input[type="email"],
+     #contacts input[type="tel"],
+     #contacts input[type="url"],
+     #contacts textarea,
+     #contacts button[type="submit"] {
+       font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif; }
+     
+     #contacts {
+       background: #b78d52;
+       padding: 2%;
+       margin-top: 0%; 
+       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+     }
+     
+     #contacts h3 {
+       display: block;
+       font-size: 30px;
+       font-weight: 300;
+       margin-bottom: 10px;
+       margin-left: 42%;
+     }
+     
+     #contacts h4 {
+       margin: 5px 0 15px;
+       display: block;
+       font-size: 13px;
+       font-weight: 400;
+       margin-left: 42%;
+     }
+     
+     fieldset {
+       border: medium none !important;
+       margin: 0 0 10px;
+       min-width: 100%;
+       padding: 0;
+       width: 100%;
+     }
+     
+     #contacts input[type="text"],
+     #contacts input[type="email"],
+     #contacts input[type="tel"],
+     #contacts input[type="url"],
+     #contacts textarea {
+       width: 25%;
+       border: 1px solid #ccc;
+       background: #FFF;
+       margin: 0 36% 0;
+       padding: 10px;
+     }
+     
+     #contacts input[type="text"]:hover,
+     #contacts input[type="email"]:hover,
+     #contacts input[type="tel"]:hover,
+     #contacts input[type="url"]:hover,
+     #contacts textarea:hover {
+       -webkit-transition: border-color 0.3s ease-in-out;
+       -moz-transition: border-color 0.3s ease-in-out;
+       transition: border-color 0.3s ease-in-out;
+       border: 1px solid #aaa;
+     }
+     
+     #contacts textarea {
+       height: 100px;
+       max-width: 100%;
+       resize: none;
+     }
+     
+     #contacts button[type="submit"] {
+       cursor: pointer;
+       width: 26.5%;
+       border: none;
+       background: #370617;
+       color: #FFF;
+       margin: 0 36% 0;
+       padding: 10px;
+       font-size: 15px;
+     }
+     
+     #contacts button[type="submit"]:hover {
+       background: #370617;
+       -webkit-transition: background 0.3s ease-in-out;
+       -moz-transition: background 0.3s ease-in-out;
+       transition: background-color 0.3s ease-in-out;
+     }
+     
+     #contacts button[type="submit"]:active {
+       box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+     }
+     
+     .copyright {
+       text-align: center;
+     }
+     
+     #contacts input:focus,
+     #contacts textarea:focus {
+       outline: 0;
+       border: 1px solid #aaa;
+     }
+     
+     ::-webkit-input-placeholder {
+       color: #888;
+     }
+     
+     :-moz-placeholder {
+       color: #888;
+     }
+     
+     ::-moz-placeholder {
+       color: #888;
+     }
+     
+     :-ms-input-placeholder {
+       color: #888;
+     }    
+
