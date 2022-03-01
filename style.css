@@ -3,14 +3,14 @@
 @media (min-width: 320px) {
   *{margin: 0%}
   
-    h1{ text-align: center;background-image:url(header.jpg); height: 350px; background-size: cover;
+    h1{ text-align: center;background-image:url(header.jpg); height: 200px; background-size: cover;
       color: #b78d52; font-family:serif; font-size: larger; padding: 1%; padding-top: 3%; }
       nav{background-color:#370617; height: auto }
       a{color: #b78d52;  }
       li{list-style-type: none; display: inline-block; margin: 0.5%; padding: 1%; font-size: 16px; }
       li:hover{background-color: black; border-radius: 8px;}
       header{position: fixed; top: 0; width: 100%;}
-      #home{height: 400px; background-color: black; color: #b78d52;padding-top: 500px; }
+      #home{height: 400px; background-color: black; color: #b78d52;padding-top: 300px; }
       p{font-family: serif;}
       p#intro{font-size:20px;}
       #news{height: auto; background-color: #370617; scroll-margin-top: 500px; }
